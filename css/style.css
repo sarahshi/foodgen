@@ -1,0 +1,36 @@
+body {
+/*   background-image: url(/images/graphpaper.jpg);
+  background-size: 100%; */
+  height: 1000px;
+  background-color: black;
+}
+
+.protein{
+  width:175px;
+}
+
+.vegetable{
+  width:175px;
+}
+
+.carbs{
+  width:175px;
+}
+
+.dairy{
+  width:175px;
+}
+
+.fruit{
+  width:175px;
+}
+
+/* span.name {
+  color: black; 
+  font-size: 60px;
+  opacity:0;
+} 
+.vegetable:hover.name{
+  opacity:1;
+  color: black;
+} */

@@ -1,0 +1,17 @@
+/* /* #outsidefridge{
+  background-size: 100%;
+  height: 2200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+#title{
+    height: 200px; 
+}
+
+body {
+  background-image: url(/images/fridge/outside_fridge.png);
+  background-size: 100%;
+  height: 1887px;
+} */
