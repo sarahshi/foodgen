@@ -1,36 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
 body {
-/*   background-image: url(/images/graphpaper.jpg);
-  background-size: 100%; */
+  background-image: url(/images/graphpaper.jpg);
+  background-size: 100%;
   height: 1000px;
-  background-color: black;
+}
+h1{
+  color: black;
+  font-family: 'Shadows Into Light', cursive; 
+  text-align: center;  
+}
+
+.sidetext {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+   transform: rotate(90deg);
+   font-size: 3em;
+   color: black;
+   font-family: 'Shadows Into Light', cursive;
 }
 
 .protein{
-  width:175px;
+  width: 175px;
+  position:relative;
+  z-index: 10;
+}
+
+.proteintext{
+  opacity:0;
+}
+
+img.protein:hover+.protein .proteintext{
+  opacity: 1;
+  font-size: 30px;
+  text-align:center;
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.protein:hover {
+  opacity:1;
+  transform: scale(1.13);
+  transition: 0.2s;
+  -webkit-filter: drop-shadow(5px 5px 0 white)
+                  drop-shadow(-5px -5px 0 white);
+  filter: drop-shadow(5px 5px 0 white) 
+          drop-shadow(-5px -5px 0 white);
+}
+
+input{
+  display:none;
+}
+
+#submitIngredients{
+   display : block;
+}
+
+input:checked+label{
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .vegetable{
-  width:175px;
+  width: 175px;
+  position:relative;
+  z-index: 10;
+}
+.vegetabletext{
+  opacity:0;
+}
+
+img.vegetable:hover+.vegetable .vegetabletext{
+  opacity: 1;
+  font-size: 30px;
+  text-align:center;
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+}
+.vegetable:hover {
+  opacity:1;
+  transform: scale(1.13);
+  transition: 0.2s;
+  -webkit-filter: drop-shadow(5px 5px 0 white)
+                  drop-shadow(-5px -5px 0 white);
+  filter: drop-shadow(5px 5px 0 white) 
+          drop-shadow(-5px -5px 0 white);
 }
 
 .carbs{
-  width:175px;
+  width:170px;
+  position:relative;
+  z-index: 10;
+}
+
+.carbstext{
+  opacity:0;
+}
+
+img.carbs:hover+.carbs .carbstext{
+  opacity: 1;
+  font-size: 30px;
+  text-align:center;
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+}
+.carbs:hover {
+  opacity:1;
+  transform: scale(1.13);
+  transition: 0.2s;
+  -webkit-filter: drop-shadow(5px 5px 0 white)
+                  drop-shadow(-5px -5px 0 white);
+  filter: drop-shadow(5px 5px 0 white) 
+          drop-shadow(-5px -5px 0 white);
 }
 
 .dairy{
-  width:175px;
+  width:160px;
+  position:relative;
+  z-index: 10;
+}
+
+.dairytext{
+  opacity:0;
+}
+
+img.dairy:hover+.dairy .dairytext{
+  opacity: 1;
+  font-size: 30px;
+  text-align:center;
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+}
+.dairy:hover {
+  opacity:1;
+  transform: scale(1.13);
+  transition: 0.2s;
+  -webkit-filter: drop-shadow(5px 5px 0 white)
+                  drop-shadow(-5px -5px 0 white);
+  filter: drop-shadow(5px 5px 0 white) 
+          drop-shadow(-5px -5px 0 white);
 }
 
 .fruit{
-  width:175px;
+  width:160px;
+  position:relative;
+  z-index: 10;
 }
 
-/* span.name {
-  color: black; 
-  font-size: 60px;
+.fruittext{
   opacity:0;
-} 
-.vegetable:hover.name{
-  opacity:1;
+}
+
+img.fruit:hover+.fruit .fruittext{
+  opacity: 1;
+  font-size: 30px;
+  text-align:center;
   color: black;
-} */
+  font-family: 'Shadows Into Light', cursive;
+}
+.fruit:hover {
+  opacity:1;
+  transform: scale(1.13);
+  transition: 0.2s;
+  -webkit-filter: drop-shadow(5px 5px 0 white)
+                  drop-shadow(-5px -5px 0 white);
+  filter: drop-shadow(5px 5px 0 white) 
+          drop-shadow(-5px -5px 0 white);
+}
+.slick-prev:before, .slick-next:before{
+    color:black;
+}
+
+.slick-prev {
+    
+    left: 70px;
+}
+
+.slick-next {
+  right: 5px;
+}
+

@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
   <head>
-    <title> FOODGEN </title>
+    <meta charset="UTF-8">
+    <title> GREAT PEARINGS </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -19,251 +20,285 @@
     
 <!--     protein, vegetables, carbs, dairy, fruit  -->
     
-       <div class="container-fluid">
-      
+      <div class="container-fluid">
+      <div class="row">
+        <h1>Select up to seven ingredients:</h1>
+          </div>
+        
       <div class= "row">
         <br> <br> <br>
-        <div class= "row multiple-items">
-          <button type="button" class="slick-prev">Previous</button>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/beef.png" class=protein>
-         </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/chicken.png" class=protein>
-         </div>
-          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/pork.png" class=protein>
-         </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/lamb.png" class=protein>
-        </div>
-          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/fish.png" class=protein>
-         </div>
-          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/shrimp.png" class=protein>
+     
+        <div class= "row">
+           <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+             <p class=sidetext style="margin-top: 22px"> Protein </p>
           </div>
+          <div class="multiple-items">
+            
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <input type="checkbox" id="beans"> <label for="beans"> <img src="images/protein/beans.png" class=protein> <div class="protein"> <div class="proteintext">Beans</div></div></label></div>
+
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <input type="checkbox" id="beef"> <label for="beef"> <img src="images/protein/beef.png" class=protein> <div class="protein"> <div class="proteintext">Beef</div></div> </label></div>
+          
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+         <input type="checkbox" id="chicken"> <label for="chicken"> <img src="images/protein/chicken.png" class=protein> <div class="protein"> <div class="proteintext">Chicken</div></div> </label>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <input type="checkbox" id="duck"> <label for="duck"> <img src="images/protein/duck.png" class=protein> <div class="protein"> <div class="proteintext">Duck</div></div></label>
+        </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/turkey.png" class=protein>
-         </div>
+           <input type="checkbox" id="eggs"> <label for="eggs"> <img src="images/protein/eggs.png" class=protein> <div class="protein"> <div class="proteintext">Eggs</div></div></label>
+        </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/duck.png" class=protein>
-         </div>
+       <input type="checkbox" id="fish"> <label for="fish"> <img src="images/protein/fish.png" class=protein> <div class="protein"> <div class="proteintext">Fish</div></div></label>
+        </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/eggs.png" class=protein>
-         </div>
+          <input type="checkbox" id="lamb"> <label for="lamb"><img src="images/protein/lamb.png" class=protein> <div class="protein"> <div class="proteintext">Lamb</div></div></label>
+        </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/nuts.png" class=protein>
-         </div>
-          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/tofu.png" class=protein>
-         </div>
-          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/protein/beans.png" class=protein>
-         </div>
-          <button type="button" class="slick-next">Next</button>
-      </div>
+         <input type="checkbox" id="nuts"> <label for="nuts"> <img src="images/protein/nuts.png" class=protein> <div class="protein"> <div class="proteintext">Nuts</div></div></label>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <input type="checkbox" id="pork"> <label for="pork"><img src="images/protein/pork.png" class=protein> <div class="protein"> <div class="proteintext">Pork</div></div></label>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <input type="checkbox" id="shrimp"> <label for="shrimp"><img src="images/protein/shrimp.png" class=protein> <div class="protein"> <div class="proteintext">Shrimp</div></div></label>
+        </div>
+         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+           <input type="checkbox" id="tofu"> <label for="tofu"> <img src="images/protein/tofu.png" class=protein> <div class="protein"> <div class="proteintext">Tofu</div></div></label>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <input type="checkbox" id="turkey"> <label for="turkey"><img src="images/protein/turkey.png" class=protein> <div class="protein"> <div class="proteintext">Turkey</div></div></label>
+        </div>
+        </div>
+        </div>
+      
+        <!--           <button type="button" class="slick-next">Next</button> -->
+
         
         <br>
         
-      <div class= "row multiple-items">
+      <div class= "row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+          <p class=sidetext style="margin-top: 35px"> Vegetables </p>
+        </div>
+        <div class="multiple-items"> 
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/kale.png" class=vegetable>
+          <input type="checkbox" id="arugula"> <label for="arugula"><img src="images/vegetables/arugula.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Arugula</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/arugula.png" class=vegetable>
+          <input type="checkbox" id="asparagus"> <label for="asparagus"><img src="images/vegetables/asparagus.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Asparagus</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/swisschard.png" class=vegetable>
+          <input type="checkbox" id="avocado"> <label for="avocado"><img src="images/vegetables/avocado.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Avocado</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/lettuce.png" class=vegetable>
+         <input type="checkbox" id="beetroot"> <label for="beetroot"><img src="images/vegetables/beetroot.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Beetroot</div></div></label>
         </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-           <img src="images/vegetables/spinach.png" class=vegetable>
+           <input type="checkbox" id="bellpeppers"> <label for="bellpeppers"><img src="images/vegetables/bellpeppers.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Bell Peppers</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/cabbage.png" class=vegetable>
+          <input type="checkbox" id="broccoli"> <label for="broccoli"><img src="images/vegetables/broccoli.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Broccoli</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/tomato.png" class=vegetable>
+         <input type="checkbox" id="butternut"> <label for="butternut"><img src="images/vegetables/butternut.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Butternut Squash</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/avocado.png" class=vegetable>
+         <input type="checkbox" id="carrot"> <label for="carrot"><img src="images/vegetables/carrot.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Carrot</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/broccoli.png" class=vegetable>
+         <input type="checkbox" id="cauliflower"> <label for="cauliflower"><img src="images/vegetables/cauliflower.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Cauliflower</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/asparagus.png" class=vegetable>
+          <input type="checkbox" id="cucumber"> <label for="cucumber"><img src="images/vegetables/cucumber.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Cucumber</div></div></label>
         </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-           <img src="images/vegetables/zucchini.png" class=vegetable>
+          <input type="checkbox" id="kale"> <label for="kale"><img src="images/vegetables/kale.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Kale</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/beetroot.png" class=vegetable>
+         <input type="checkbox" id="lettuce"> <label for="lettuce"><img src="images/vegetables/lettuce.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Lettuce</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/onion.png" class=vegetable>
+          <input type="checkbox" id="mushroom"> <label for="mushroom"><img src="images/vegetables/mushroom.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Mushroom</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/mushroom.png" class=vegetable>
+          <input type="checkbox" id="onion"> <label for="onion"><img src="images/vegetables/Onion.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Onion</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/carrot.png" class=vegetable>
+          <input type="checkbox" id="spinach"> <label for="spinach"><img src="images/vegetables/spinach.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Spinach</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/butternut.png" class=vegetable>
+          <input type="checkbox" id="swisschard"> <label for="swisschard"><img src="images/vegetables/swisschard.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Swiss Chard</div></div></label>
         </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-           <img src="images/vegetables/cucumber.png" class=vegetable>
+          <input type="checkbox" id="tomato"> <label for="tomato"><img src="images/vegetables/tomato.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Tomato</div></div></label>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/vegetables/bellpeppers.png" class=vegetable>
+          <input type="checkbox" id="zucchini"> <label for="zucchini"><img src="images/vegetables/zucchini.png" class=vegetable> <div class="vegetable"> <div class="vegetabletext">Zucchini</div></div></label>
         </div>
       </div>
+        </div>
       
         <br>
         
-      <div class= "row multiple-items">
+      <div class= "row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+          <p class=sidetext style="margin-top: 42px"> Carbs </p>
+        </div>
+      <div class= "multiple-items"> 
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/whiterice.png" class=carbs>
+          <input type="checkbox" id="barley"> <label for="barley"><img src="images/carbs/barley.png" class=carbs> <div class="carbs"> <div class="carbstext">Barley</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/brownrice.png" class=carbs>
+          <input type="checkbox" id="brownrice"> <label for="brownrice"><img src="images/carbs/brownrice.png" class=carbs> <div class="carbs"> <div class="carbstext">Brown Rice</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/pasta.png" class=carbs>
+          <input type="checkbox" id="grits"> <label for="grits"><img src="images/carbs/corn-grits.png" class=carbs> <div class="carbs"> <div class="carbstext">Grits</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/noodles.png" class=carbs>
+          <input type="checkbox" id="corn"> <label for="corn"><img src="images/carbs/corn.png" class=carbs> <div class="carbs"> <div class="carbstext">Corn</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/potatoes.png" class=carbs>
+          <input type="checkbox" id="couscous"> <label for="couscous"><img src="images/carbs/couscous.png" class=carbs> <div class="carbs"> <div class="carbstext">Couscous</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/corn.png" class=carbs>
+          <input type="checkbox" id="millet"> <label for="millet"><img src="images/carbs/millet.png" class=carbs> <div class="carbs"> <div class="carbstext">Millet</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/quinoa.png" class=carbs>
+         <input type="checkbox" id="noodles"> <label for="noodles"><img src="images/carbs/noodles.png" class=carbs> <div class="carbs"> <div class="carbstext">Noodles</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/couscous.png" class=carbs>
+          <input type="checkbox" id="oats"> <label for="oats"><img src="images/carbs/oats.png" class=carbs> <div class="carbs"> <div class="carbstext">Oats</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/barley.png" class=carbs>
+          <input type="checkbox" id="pasta"> <label for="pasta"><img src="images/carbs/pasta.png" class=carbs> <div class="carbs"> <div class="carbstext">Pasta</div></div></label>
          </div>
           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/corn-grits.png" class=carbs>
+          <input type="checkbox" id="potatoes"> <label for="potatoes"><img src="images/carbs/potatoes.png" class=carbs> <div class="carbs"> <div class="carbstext">Potatoes</div></div></label>
          </div>
           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/oats.png" class=carbs>
+          <input type="checkbox" id="quinoa"> <label for="quinoa"><img src="images/carbs/quinoa.png" class=carbs> <div class="carbs"> <div class="carbstext">Quinoa</div></div></label>
          </div>
           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/carbs/millet.png" class=carbs>
+          <input type="checkbox" id="whiterice"> <label for="whiterice"><img src="images/carbs/whiterice.png" class=carbs> <div class="carbs"> <div class="carbstext">White Rice</div></div></label>
          </div>
       </div>
+     </div>
+      
       
         <br>
         
-      <div class= "row multiple-items">
+      <div class= "row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+          <p class=sidetext style="margin-top: 30px"> Dairy</p>
+        </div>
+        <div class="multiple-items">
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/dairy/cheese.png" class=dairy>
+          <input type="checkbox" id="almondmilk"> <label for="almondmilk"><img src="images/dairy/almond-milk.png" class=dairy> <div class="dairy"> <div class="dairytext">Almond Milk</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/dairy/butter.png" class=dairy>
+          <input type="checkbox" id="butter"> <label for="butter"><img src="images/dairy/butter.png" class=dairy> <div class="dairy"> <div class="dairytext">Butter</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/dairy/Milk.png" class=dairy>
+          <input type="checkbox" id="cheese"> <label for="cheese"><img src="images/dairy/cheese.png" class=dairy> <div class="dairy"> <div class="dairytext">Cheese</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/dairy/soy-milk.png" class=dairy>
+          <input type="checkbox" id="cottagecheese"> <label for="cottagecheese"><img src="images/dairy/cottage-cheese.png" class=dairy> <div class="dairy"> <div class="dairytext">Cottage Cheese</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/dairy/almond-milk.png" class=dairy>
+         <input type="checkbox" id="icecream"> <label for="icecream"><img src="images/dairy/ice-cream.png" class=dairy> <div class="dairy"> <div class="dairytext">Ice Cream </div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/dairy/Milk.png" class=dairy>
+          <input type="checkbox" id="milk"> <label for="milk"><img src="images/dairy/milk.png" class=dairy> <div class="dairy"> <div class="dairytext">Milk</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/dairy/yogurt.png" class=dairy>
+          <input type="checkbox" id="mozzarella"> <label for="mozzarella"><img src="images/dairy/mozzarella.png" class=dairy> <div class="dairy"> <div class="dairytext">Mozzarella</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/dairy/sour-cream.png" class=dairy>
+          <input type="checkbox" id="sourcream"> <label for="sourcream"><img src="images/dairy/sour-cream.png" class=dairy> <div class="dairy"> <div class="dairytext">Sour Cream</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/dairy/cottage-cheese.png" class=dairy>
+          <input type="checkbox" id="soymilk"> <label for="soymlik"><img src="images/dairy/soy-milk.png" class=dairy> <div class="dairy"> <div class="dairytext">Soy Milk</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-          <img src="images/dairy/ice-cream.png" class=dairy>
+          <input type="checkbox" id="yogurt"> <label for="yogury"><img src="images/dairy/yogurt.png" class=dairy> <div class="dairy"> <div class="dairytext">Yogurt</div></div></label>
          </div>
       </div>
+        </div>
        
         <br>
      
-       <div class="row multiple-items">
+     <div class="row">
+         <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+          <p class=sidetext style="margin-top: 70px">Fruit</p> 
+        </div>
+       <div class="multiple-items">
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/apple.png" class=fruit>
+           <input type="checkbox" id="apple"> <label for="apple"><img src="images/fruits/apple.png" class=fruit> <div class="fruit"> <div class="fruittext">Apple</div></div></label>
          </div>
           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/banana.png" class=fruit>
+            <input type="checkbox" id="banana"> <label for="banana"><img src="images/fruits/banana.png" class=fruit> <div class="fruit"> <div class="fruittext">Banana</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/blueberries.png" class=fruit>
+            <input type="checkbox" id="blueberries"> <label for="blueberries"><img src="images/fruits/blueberries.png" class=fruit> <div class="fruit"> <div class="fruittext">Blueberries</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/grapefruit.png" class=fruit>
+            <input type="checkbox" id="grapefruit"> <label for="grapefruit"><img src="images/fruits/grapefruit.png" class=fruit> <div class="fruit"> <div class="fruittext">Grapefruit</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/grapes.png" class=fruit>
+            <input type="checkbox" id="grapes"> <label for="grapes"><img src="images/fruits/grapes.png" class=fruit> <div class="fruit"> <div class="fruittext">Grapes</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/guava.png" class=fruit>
+            <input type="checkbox" id="guava"> <label for="guava"><img src="images/fruits/guava.png" class=fruit> <div class="fruit"> <div class="fruittext">Guava</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/honeydew.png" class=fruit>
+            <input type="checkbox" id="honeydew"> <label for="honeydew"><img src="images/fruits/honeydew.png" class=fruit> <div class="fruit"> <div class="fruittext">Honeydew</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/kiwi.png" class=fruit>
+           <input type="checkbox" id="kiwi"> <label for="kiwi"> <img src="images/fruits/kiwi.png" class=fruit> <div class="fruit"> <div class="fruittext">Kiwi</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/lemon.png" class=fruit>
+            <input type="checkbox" id="lemon"> <label for="lemon"><img src="images/fruits/lemon.png" class=fruit> <div class="fruit"> <div class="fruittext">Lemon</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/mango.png" class=fruit>
+            <input type="checkbox" id="mango"> <label for="mango"><img src="images/fruits/mango.png" class=fruit> <div class="fruit"> <div class="fruittext">Mango</div></div></label>
          </div>
         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/orange.png" class=fruit>
+            <input type="checkbox" id="orange"> <label for="orange"><img src="images/fruits/orange.png" class=fruit> <div class="fruit"> <div class="fruittext">Orange</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/papaya.png" class=fruit>
+            <input type="checkbox" id="papaya"> <label for="papaya"><img src="images/fruits/papaya.png" class=fruit> <div class="fruit"> <div class="fruittext">Papaya</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/peach.png" class=fruit>
+            <input type="checkbox" id="peach"> <label for="peach"><img src="images/fruits/peach.png" class=fruit> <div class="fruit"> <div class="fruittext">Peach</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/pear.png" class=fruit>
+            <input type="checkbox" id="pear"> <label for="pear"><img src="images/fruits/pear.png" class=fruit> <div class="fruit"> <div class="fruittext">Pear</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/pineapple.png" class=fruit>
+            <input type="checkbox" id="pineapple"> <label for="pineapple"><img src="images/fruits/pineapple.png" class=fruit> <div class="fruit"> <div class="fruittext">Pineapple</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/pomegranate.png" class=fruit>
+            <input type="checkbox" id="pomegranata"> <label for="pomegranate"><img src="images/fruits/pomegranate.png" class=fruit> <div class="fruit"> <div class="fruittext">Pomegranate</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/strawberries.png" class=fruit>
+            <input type="checkbox" id="strawberries"> <label for="strawberries"><img src="images/fruits/strawberries.png" class=fruit> <div class="fruit"> <div class="fruittext">Strawberries</div></div></label>
          </div>
          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-            <img src="images/fruits/watermelon.png" class=fruit>
+            <input type="checkbox" id="watermelon"> <label for="watermelon"><img src="images/fruits/watermelon.png" class=fruit> <div class="fruit"> <div class="fruittext">Watermelon</div></div></label>
          </div>
         </div>
     </div>
     </div> 
-    
+        
+    <div>
+      <a href="http://pinchandswirl.com/2013/09/warm-kale-and-quinoa-salad-with-avocado-almonds-and-feta/"> <h1>SUBMIT</h1></a> 
+    </div>
+    </div>
 <!-- slick -->
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
-    
   </body>
 </html>

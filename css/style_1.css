@@ -5,13 +5,20 @@
   margin-left: auto;
   margin-right: auto;
 } */
-
 #title{
-    height: 200px; 
+    height: 175px; 
+    margin-left: -250px;
+    padding: 100px; 
+    bottom: 100px; 
 }
 
 body {
-  background-image: url(/images/fridge/outside_fridge.png);
+  background-image: url(/images/fridge/final_fridge.jpg);
   background-size: 100%;
-  height: 1887px;
-} */
+  height: 1300px;
+} 
+
+#begin{
+  height: 190px; 
+  margin-top: 650px; 
+}
