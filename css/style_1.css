@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url(images/fridge/final_fridge.jpg);
+  background-image: url(/images/fridge/final_fridge.jpg);
   background-size: 100%;
   height: 1300px;
 } 
